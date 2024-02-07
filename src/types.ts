@@ -4,3 +4,8 @@ export interface IExpense {
 	amount: number | string;
 	date: string | Date;
 }
+
+export interface IStats {
+	month: string;
+	activity: number;
+}

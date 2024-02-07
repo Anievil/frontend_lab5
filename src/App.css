@@ -103,8 +103,120 @@ body {
 
 .expenses {
 	padding: 1rem;
-	background-color: rgba(117, 118, 118, 0.46);
+	background-color: rgba(8, 8, 8, 0.46);
 	margin: 2rem auto;
 	width: 50rem;
 	max-width: 95%;
+}
+
+.expense-fill_body {
+	background-color: #d07cf7;
+	padding: 20px;
+	border-radius: 20px;
+	flex-direction: row;
+}
+
+.expense-fill_button {
+	background-color: #40005d;
+	padding-right: 9px;
+	padding-left: 9px;
+	border: 0;
+	border-radius: 10px;
+}
+
+.expense-fill_button-text {
+	color: white;
+}
+
+.expense-fill_fill-div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.expense-fill_fill-p {
+	margin-bottom: 10px;
+	font-size: 1.25rem;
+	font-weight: bold;
+
+}
+
+.expense-button-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.expense-fill_fill-fill_disc {
+	width: 40%;
+	margin-left: 20px;
+}
+
+.expense-fill_fill {
+	border: 0;
+	width: 100%;
+	height: 35px;
+	border-radius: 10px;
+}
+
+.filter_body {
+	margin-bottom: 20px;
+}
+
+.filter_date_div {
+	background-color: white;
+	border-radius: 5px;
+	position: absolute;
+	transition: 1s;
+	z-index: 1;
+	overflow: hidden;
+	cursor: pointer;
+	right: 0;
+	top: 20px;
+}
+
+.accardeonBody {
+	background-color: white;
+	transition: 1s;
+}
+
+.accardeonBodyItem {
+	border-top: 1px solid grey;
+	padding: 10px 20px;
+}
+
+.filter_date_text {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
+.filter_title {
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+.filter_filterDiv {
+	background-color: #e4bcf7;
+	border-radius: 20px;
+	display: flex;
+	padding: 0px 0;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.filter_item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.filter_year_div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px 20px;
+	position: relative;
 }
