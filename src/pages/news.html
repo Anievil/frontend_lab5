@@ -1,0 +1,132 @@
+<!-- src/template.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>htmlWebpackPlugin</title>
+    <style>
+        .bg-1 {
+            background-color: #1abc9c;
+            color: #ffffff;
+        }
+
+        .bg-2 {
+            background-color: #808ba3;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+        }
+
+        ul a {
+            color: #ffffff
+        }
+
+
+        .bg-3 {
+            padding: 20px 300px;
+            background-color: #ffffff;
+            color: #555555;
+        }
+
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+        img {
+            margin-right: 40px;
+            width: 320px;
+            height: 160px;
+        }
+
+        .news {
+            border-bottom: 1px solid gray;
+            padding: 30px;
+        }
+
+        .news>a {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root">
+        <div class="container-fluid bg-2">
+            <ul>
+                <li><a href="./index.html">Головна</a></li>
+                <li>Новини (Поточна)</a></li>
+                <li><a href="./rozklad.html">Розклад</a></li>
+                <li><a href="./photo.html">Фото</a></li>
+                <li><a href="./about.html">О нас</a></li>
+            </ul>
+        </div>
+        <div class="container-fluid bg-3">
+            <div class="news">
+                <a href="https://www.overclockers.ua/ua/news/hardware/2023-06-15/132829/">
+                    <img src="https://www.overclockers.ua/news/cpu/130467-intel-fab42-cnet-meteor-lake-1.jpg" />
+                    <div>
+                        <h3>Intel змінить схему маркування процесорів із виходом CPU Meteor Lake</h3>
+                        <p>З релізом нового покоління процесорів для персональних комп'ютерів Intel внесе зміни до
+                            системи
+                            позначення CPU. Починаючи з другої половини цього року компанія розділить модельний ряд...
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="news">
+                <a href="https://www.overclockers.ua/ua/news/hardware/2023-06-15/132828/">
+                    <img src="https://www.overclockers.ua/news/motherboard/132828-asus-prime-n100i-d4-1.jpg" />
+                    <div>
+                        <h3>ASUS представила материнську плату Prime N100I-D D4 з розпаяним чипом Intel Alder Lake-N
+                        </h3>
+                        <p>ASUSTeK Computer підготувала до випуску системну плату Prime N100I-D D4. Вона виконана у
+                            форм-факторі Mini-ITX та оснащена розпаяним процесором Intel N100. Цей «камінець»,
+                            нагадаємо, належить...
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="news">
+                <a href="https://www.overclockers.ua/ua/news/hardware/2023-06-15/132827/">
+                    <img src="https://www.overclockers.ua/news/mobile/132827-razer-blade-14-2023-1.jpg" />
+                    <div>
+                        <h3>ASUS представила материнську плату Prime N100I-D D4 з розпаяним чипом Intel Alder Lake-N
+                        </h3>
+                        <p>Американська компанія Razer представила нову версію ігрового ноутбука Blade 14. Основою
+                            лептопа
+                            послужив гібридний процесор AMD Ryzen 9 7940HS (8 ядер/16 потоків, 4,0/5,2 ГГц), а...</p>
+                    </div>
+                </a>
+            </div>
+            <div class="news">
+                <a href="https://www.overclockers.ua/ua/news/hardware/2023-06-14/132826/">
+                    <img src="https://www.overclockers.ua/news/video/132826-rtx-4060-june-1.jpg" />
+                    <div>
+                        <h3>Офіційно: відеокарта GeForce RTX 4060 вийде 29 червня</h3>
+                        <p>Nvidia офіційно підтвердила перенесення дати релізу GeForce RTX 4060. Придбати наймолодшу
+                            відеокарту
+                            сімейства Ada Lovelace можна буде починаючи з 29 червня. За день до релізу...</p>
+                    </div>
+                </a>
+            </div>
+            <div class="news">
+                <a href="https://www.overclockers.ua/ua/news/hardware/2023-06-14/132825/">
+                    <img src="https://www.overclockers.ua/news/benchmarking/132825-luumi-e8600-7ghz-1.jpg" />
+                    <div>
+                        <h3>Процесор Intel Core 2 Duo E8600 вперше розігнаний до 7 ГГц</h3>
+                        <p>Фінський гуру оверклокінгу Luumi днями відзначився в екстремальному розгоні процесора Core 2
+                            Duo
+                            E8600. Це двоядерний представник 45-нм сімейства Intel Wolfdale, випущений майже п'ятнадцять
+                            років...</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
